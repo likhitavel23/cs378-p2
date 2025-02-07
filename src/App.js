@@ -89,7 +89,7 @@ function App() {
             key={item.id}
             title={item.title}
             description={item.description}
-            imageName={`/images/${item.imageName}`}
+            imageName={`${process.env.PUBLIC_URL}/images/${item.imageName}`}
             price={item.price}
           />
         ))}
