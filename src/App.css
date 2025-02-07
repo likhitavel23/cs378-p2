@@ -6,3 +6,45 @@
 .menu {
   color: blue;
 }
+
+.menu-header {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.restaurant-logo {
+    width: 300px;
+    height: auto;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 20px;
+}
+
+.menu-item {
+  flex: 1 1 calc(25% - 40px); 
+}
+
+.menu-header {
+  font-family: 'Kaushan Script';
+  color: #8B0000;
+  font-size: 2.5rem;
+}
+
+.menu-desc {
+  font-family: 'Merienda', sans-serif;
+  font-size: 1.2rem;
+  color: #403e3e;
+}
+button.custom-button {
+  background-color: #8B0000; 
+  color: white; 
+}
+
+button.custom-button:hover {
+  background-color: #d3998e; 
+}
